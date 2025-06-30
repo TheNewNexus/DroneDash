@@ -74,58 +74,58 @@ The project is built using:
 DroneDash/
 │
 ├── autonomy/
-│   ├── aruco\_follow\.py
-│   ├── follow\_me.py
-│   ├── ground\_followme.py
-│   ├── non\_gps\_movement.py
-│   ├── velocity\_based\_movement.py
-│   ├── radio\_controlled\_fluxgrip.py
-│   ├── swivel\_search.py
-│   └── d4xx\_to\_mavlink.py
+│   ├── aruco_follow.py
+│   ├── follow_me.py
+│   ├── ground_followme.py
+│   ├── non_gps_movement.py
+│   ├── velocity_based_movement.py
+│   ├── radio_controlled_fluxgrip.py
+│   ├── swivel_search.py
+│   └── d4xx_to_mavlink.py
 │
 ├── gps\_navigation/
-│   ├── gps\_arauco.py
-│   ├── gps\_mission.py
-│   ├── gps\_print.py
-│   ├── gps\_scan\_aruco.py
-│   ├── send\_gps.py
-│   ├── get\_gps.py
-│   └── map\_picker.py
+│   ├── gps_aruco.py
+│   ├── gps_mission.py
+│   ├── gps_print.py
+│   ├── gps_scan_aruco.py
+│   ├── send_gps.py
+│   ├── get_gps.py
+│   └── map_picker.py
 │
-├── mission\_control/
-│   ├── drone\_to\_rover\_mission.py
+├── mission_control/
+│   ├── drone_to_rover_mission.py
 │   ├── mission.py
 │   ├── navigate.py
-│   └── send\_velocity\_movement.py
+│   └── send_velocity_movement.py
 │
-├── servo\_control/
+├── servo_control/
 │   ├── servo.py
 │   ├── servo1.py
 │   ├── servo2.py
 │   └── servo3.py
 │
-├── throttle\_control/
+├── throttle_control/
 │   ├── throttle.py
 │   ├── throttle2.py
 │   ├── throttle3.py
-│   └── velocity\_test.py
+│   └── velocity_test.py
 │
 ├── tests/
 │   ├── camera\_test.py
 │   ├── mavtest.py
 │   ├── mavtester.py
-│   ├── manual\_mode\_test1.py
+│   ├── manual_mode_test1.py
 │   └── telem.py
 │
 ├── config/
 │   ├── mav.param
-│   ├── \*.parm
+│   ├── *.parm
 │   ├── d4xx-default.json
 │
 ├── logs/
 │   ├── mav.tlog
 │   ├── mav.tlog.raw
-│   └── \*.tlog (session logs)
+│   └── *.tlog (session logs)
 │
 └── README.md
 
