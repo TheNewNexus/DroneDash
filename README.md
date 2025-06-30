@@ -23,7 +23,7 @@
 DroneDash is built on a rugged RC car platform and is designed to perform fully autonomous missions. It integrates GPS, computer vision, servo control, and obstacle avoidance to enable reliable navigation in complex outdoor settings.
 
 The project is built using:
-- ArduRover firmware (PX4)
+- ArduRover firmware
 - MAVLink protocol for communication
 - Python-based control scripts
 - Intel RealSense depth camera for vision-based obstacle detection
@@ -36,13 +36,13 @@ The project is built using:
 | Component               | Description                                 |
 |------------------------|---------------------------------------------|
 | RC Car Chassis         | Off-road capable vehicle base               |
-| Pixhawk 6X             | Autopilot running PX4 (ArduRover mode)      |
-| Jetson Orin Nano       | Onboard compute unit for autonomy tasks     |
+| Holybro Pixhawk 6X             | Autopilot running PX4 (ArduRover mode)      |
+| Nvidia Jetson Orin Nano       | Onboard compute unit for autonomy tasks     |
 | Intel RealSense D435   | Depth camera for obstacle detection         |
 | u-blox NEO-F9P         | RTK-capable GPS module                      |
-| SiK Radio Telemetry    | Long-range telemetry module                 |
+| LoRa/SiK Radio Telemetry    | Long-range telemetry module                 |
 | FlySky Transmitter     | Manual override and remote control          |
-| 4S LiPo Battery        | Power supply for vehicle and systems        |
+| 3S LiPo Battery        | Power supply for vehicle and systems        |
 
 ---
 
