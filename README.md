@@ -83,7 +83,7 @@ DroneDash/
 │   ├── swivel_search.py
 │   └── d4xx_to_mavlink.py
 │
-├── gps\_navigation/
+├── gps_navigation/
 │   ├── gps_aruco.py
 │   ├── gps_mission.py
 │   ├── gps_print.py
@@ -111,7 +111,7 @@ DroneDash/
 │   └── velocity_test.py
 │
 ├── tests/
-│   ├── camera\_test.py
+│   ├── camera_test.py
 │   ├── mavtest.py
 │   ├── mavtester.py
 │   ├── manual_mode_test1.py
